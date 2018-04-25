@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package proto;
+
+message Task {
+	string Text = 1;
+	bool Done = 2;
+}
